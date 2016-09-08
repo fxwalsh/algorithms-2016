@@ -1,0 +1,19 @@
+﻿Lab 3
+B.Sc. * Year 2, Algorithms, Sept. 2014
+Searching a list
+
+
+Develop a java program that reads in strings from the following URL and stores them in a sorted list.
+
+
+http://dl.dropbox.com/u/18678304/2011/BSc2/words.txt.
+
+
+The user should then be able to enter a sub-string and the program should return a list of matching strings that contain the substring. All matching strings should be displayed, sorted and the search should be case insensitive.
+                                                                                        
+Implementation
+
+
+1. Create a class called WordList. An instance of the  WordList class should have a list of all the words from the URL above(hint: use composition). The WordList class should implement this interface.  As you have not covered networking or exceptions in Java I’ve included a link to an example constructor for WordList(NOTE: it’s not complete!). However you should try to to figure out how to read from a URL yourself using the web (Try googling “read from url java”). Example constructor excerpt here.
+2. The following JUnit test case(here) will give you an indication of further implementation details and should be usable without modification. You can also include more rigorous test cases is you wish. 
+3. OPTIONAL: Your program can include a graphical user interface but this is not a requirement.
