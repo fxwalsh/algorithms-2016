@@ -1,0 +1,2 @@
+#Analysis of Algorithms
+As you begin to create more complex programs that process large amounts of data you will need to consider performance (e.g. how long will my program take to run?). This topic introduces the scientific method for predicting the running time of your algorithms. You will also learn how to produce mathematical models  for algorithms and estimate an algorithms order of growth using tilda notation.
